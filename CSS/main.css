@@ -149,3 +149,23 @@ main {
     height: 192px;
   }
 }
+
+.property {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+
+  .icon {
+    width: 65px;
+    align-self: center;
+    margin-bottom: 48px;
+  }
+
+  .title3 {
+    margin-bottom: 24px;
+  }
+
+  .description {
+    text-align: center;
+  }
+}
