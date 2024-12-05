@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 24px;
+  overflow: hidden;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 64px;
+
+  .logo {
+    width: 40px;
+  }
+
+  .button {
+    background-color: #e8eff2;
+    color: #162542;
+    padding: 11px 14px 11px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+.main-wrapper {
+  margin-bottom: 64px;
+
+  .bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .button {
+      background-color: #f16718;
+      color: #ffffff;
+      padding: 11px 14px 11px 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+
+    .release-date {
+      font-family: Barlow;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 26px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: #7b8bad;
+      margin-right: 18px;
+    }
+  }
+}
+
+.title1 {
+  font-family: Barlow;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #162542;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+
+.title2 {
+  font-family: Barlow;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #162542;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.title3 {
+  font-family: Barlow;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #162542;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7b8bad;
+  margin-bottom: 32px;
+}
+
+.image1 {
+  width: 372px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.img-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  position: relative;
+  left: -44px;
+  margin-bottom: 72px;
+
+  img {
+    border-radius: 20px;
+    height: 192px;
+  }
+}
